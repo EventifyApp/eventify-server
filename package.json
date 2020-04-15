@@ -1,0 +1,25 @@
+{
+  "name": "eventify-server",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "dev": "nodemon src/app.ts",
+    "build": "tsc -p tsconfig.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EventifyApp/eventify-server.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EventifyApp/eventify-server/issues"
+  },
+  "homepage": "https://github.com/EventifyApp/eventify-server#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.3",
+    "ts-node": "^8.8.2",
+    "typescript": "^3.8.3"
+  }
+}
